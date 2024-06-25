@@ -14,11 +14,11 @@ public class ExampleApplication {
 
 	@PostConstruct
 	public void init() {
-		log.info("application started ...............");
+		log.info("application started by pankaj ...............");
 	}
 	
 	public static void main(String[] args) {
-		log.info("application executed ...............");
+		log.info("application executed by pankaj...............");
 		SpringApplication.run(ExampleApplication.class, args);
 	}
 
